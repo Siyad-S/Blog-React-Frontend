@@ -1,0 +1,6 @@
+.major_container {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

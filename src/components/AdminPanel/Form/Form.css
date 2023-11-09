@@ -1,0 +1,48 @@
+.input {
+    height: 30px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid rgb(187, 181, 181);
+    border-radius: 10px;
+
+}
+.text_field {
+    max-height: 90px;
+    max-width: 250px;
+    padding: 10px;
+    border: 1px solid rgb(187, 181, 181);
+    border-radius: 10px;
+}
+.card_create_btn {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: #117611;
+    cursor: pointer;
+}
+.card_create_btn:hover {
+    background-color: #095109;
+}
+.admin_body {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.form_div {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    height: fit-content;
+    background: white;
+}
+.form_div form {
+    display: grid;
+    gap: 20px;
+    padding: 30px 40px;
+}
+.preview_div {
+    background-color: white;
+    width: 900px;
+    height: fit-content;
+}

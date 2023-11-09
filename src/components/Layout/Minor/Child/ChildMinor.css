@@ -1,0 +1,26 @@
+.minor_card {
+    font-family: "Raleway", sans-serif;
+    color: #000;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),
+                0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.child_minor_img img{
+    width: 100%;
+    height: 277px;
+    object-fit: cover;
+}
+.minor_card_content {
+    padding: 13px;
+}
+.minor_card_content h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+}
+.minor_card_content p {
+    max-width: max-content;
+    color: black;
+    line-height: 25px;
+    font-size: 15px;
+}

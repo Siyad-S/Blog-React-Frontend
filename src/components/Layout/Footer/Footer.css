@@ -1,0 +1,36 @@
+.footer_child {
+    background-color: #616161;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 40px 20px;
+}
+.footer_btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 15px;
+    color: white;
+    background-color: black;
+    border: transparent;
+    font-family: "Raleway", sans-serif;
+}
+.footer_child button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+/* .footer_btn svg:hover {
+    background-color: white;
+    color: black;
+} */
+.footer_caption {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    font-size: smaller;
+}
+.footer_btn_div {
+    display: flex;
+    gap: 5px;
+}
